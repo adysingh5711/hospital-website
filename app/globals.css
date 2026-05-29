@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand colors */
+  --color-brand-dark: #362048;
+  --color-brand-teal: #55D9D7;
+  --color-brand-purple: #AE61BE;
+  --color-brand-gray: #79767C;
+  --color-brand-muted: #9F83B5;
+  --color-brand-light: #F5F2F4;
+  --color-brand-border: #DDD8DB;
+  --color-brand-black: #090010;
+
+  /* Fonts */
+  --font-serif: var(--font-garamond), Georgia, serif;
+  --font-sans: var(--font-jakarta), system-ui, sans-serif;
+
+  /* Custom spacing */
+  --spacing-section: 6rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-brand-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+}
+
+/* Proximity items base */
+[data-prox] {
+  will-change: transform;
+  transition: transform 150ms ease-out, box-shadow 150ms ease-out;
+}
+
+/* Disable proximity on touch devices */
+@media (pointer: coarse) {
+  [data-prox] {
+    transition: none !important;
+  }
+}
+
+/* Smooth underline nav animation */
+.nav-link::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: var(--color-brand-teal);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-muted);
+  border-radius: 3px;
 }
