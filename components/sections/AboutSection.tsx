@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden aspect-[4/5]">
               <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80"
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80"
                 alt="Physiotherapy clinic"
                 className="w-full h-full object-cover"
               />

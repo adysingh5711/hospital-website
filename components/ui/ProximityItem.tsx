@@ -7,7 +7,7 @@ interface Props {
 
 export default function ProximityItem({ children, className = "" }: Props) {
   return (
-    <div data-prox="" className={`rounded-2xl ${className}`}>
+    <div data-prox="" className={`rounded-2xl overflow-visible ${className}`}>
       {children}
     </div>
   );
