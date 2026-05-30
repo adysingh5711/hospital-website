@@ -1,0 +1,496 @@
+{
+    "version": "0.4",
+    "title": "Team",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "3218fea7",
+            "settings": {
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/Rectangle-331.jpg",
+                    "id": 1445,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "padding": {
+                    "unit": "px",
+                    "top": "103",
+                    "right": "15",
+                    "bottom": "120",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.7,
+                    "sizes": []
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=c81b1d9"
+                }
+            },
+            "elements": [
+                {
+                    "id": "3081d163",
+                    "settings": {
+                        "image": {
+                            "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/Mask-group-1.png",
+                            "id": 707,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "_position": "absolute",
+                        "_offset_orientation_h": "end",
+                        "_offset_orientation_v": "end"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "image",
+                    "elType": "widget"
+                },
+                {
+                    "id": "23c08362",
+                    "settings": {
+                        "title": "our therapist",
+                        "header_size": "h1",
+                        "align": "center",
+                        "__globals__": {
+                            "title_color": "globals\/colors?id=ae0b14b",
+                            "typography_typography": "globals\/typography?id=5189cfb"
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "15",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_z_index": 2
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "25767ca1",
+                    "settings": {
+                        "view": "inline",
+                        "icon_list": [
+                            {
+                                "text": "Home",
+                                "selected_icon": {
+                                    "value": "",
+                                    "library": ""
+                                },
+                                "_id": "b81941e",
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                }
+                            },
+                            {
+                                "text": "our therapist",
+                                "selected_icon": {
+                                    "value": "",
+                                    "library": ""
+                                },
+                                "_id": "09e4c46"
+                            }
+                        ],
+                        "icon_align": "center",
+                        "divider": "yes",
+                        "divider_height": {
+                            "unit": "px",
+                            "size": 10,
+                            "sizes": []
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "3",
+                            "right": "11",
+                            "bottom": "3",
+                            "left": "11",
+                            "isLinked": false
+                        },
+                        "_flex_align_self": "center",
+                        "_z_index": 2,
+                        "_background_background": "classic",
+                        "__globals__": {
+                            "icon_typography_typography": "globals\/typography?id=secondary",
+                            "text_color": "globals\/colors?id=ae0b14b",
+                            "text_color_hover": "globals\/colors?id=secondary",
+                            "_background_color": "globals\/colors?id=accent",
+                            "divider_color": "globals\/colors?id=ae0b14b"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "icon-list",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "1a9837de",
+            "settings": {
+                "padding": {
+                    "unit": "px",
+                    "top": "105",
+                    "right": "15",
+                    "bottom": "105",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "4",
+                    "right": "1",
+                    "bottom": "4",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_mobile_extra": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "eec5fe8",
+                    "settings": {
+                        "selctSource": "repeater",
+                        "tmList": [
+                            {
+                                "memberTitle": "Anthony B. Castillo",
+                                "_id": "f5959fd",
+                                "tmImage": {
+                                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/team_home03-PWVDVT8.jpg",
+                                    "id": 1440,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "designationTeam": "sr. therapist",
+                                "fbLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "twitterLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "instaLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "linkdinLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                }
+                            },
+                            {
+                                "memberTitle": "Leonardo Bonucci",
+                                "tmImage": {
+                                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/team_home03-ASNDEAV.jpg",
+                                    "id": 1439,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "designationTeam": "sr. therapist",
+                                "fbLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "twitterLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "instaLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "linkdinLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "_id": "8716cf6"
+                            },
+                            {
+                                "memberTitle": "Sarah Johnson",
+                                "tmImage": {
+                                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/team_home03-SA2D6V6.jpg",
+                                    "id": 1441,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "designationTeam": "sr. therapist",
+                                "fbLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "twitterLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "instaLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "linkdinLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "_id": "5b031e4"
+                            },
+                            {
+                                "memberTitle": "Rebeca Adams",
+                                "tmImage": {
+                                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/team-5ZMZEBL.jpg",
+                                    "id": 1485,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "designationTeam": "sr. therapist",
+                                "fbLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "twitterLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "instaLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "linkdinLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "_id": "c9be402"
+                            },
+                            {
+                                "memberTitle": "Mike Roger",
+                                "tmImage": {
+                                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/team-ENRQPW7.jpg",
+                                    "id": 1486,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "designationTeam": "sr. therapist",
+                                "fbLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "twitterLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "instaLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "linkdinLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "_id": "6f583a1"
+                            },
+                            {
+                                "memberTitle": "Jonh Kura",
+                                "tmImage": {
+                                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/team-GL7SS6C.jpg",
+                                    "id": 1487,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "designationTeam": "sr. therapist",
+                                "fbLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "twitterLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "instaLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "linkdinLink": {
+                                    "url": "#",
+                                    "is_external": true,
+                                    "nofollow": true,
+                                    "custom_attributes": ""
+                                },
+                                "_id": "b24d2a1"
+                            }
+                        ],
+                        "desktop_column": "4",
+                        "mobile_column": "12",
+                        "display_thumbnail": "",
+                        "box_background_background": "classic",
+                        "__globals__": {
+                            "title_typography_typography": "globals\/typography?id=secondary",
+                            "title_color": "globals\/colors?id=ae0b14b",
+                            "box_background_color": "globals\/colors?id=secondary",
+                            "designation_color": "globals\/colors?id=ae0b14b",
+                            "designation_typography_typography": "globals\/typography?id=85c104b",
+                            "social_icon_color": "globals\/colors?id=ae0b14b",
+                            "scco_n_border_color": "globals\/colors?id=ae0b14b",
+                            "scco_h_background_color": "globals\/colors?id=secondary",
+                            "scco_h_border_color": "globals\/colors?id=secondary"
+                        },
+                        "social_icon_size": {
+                            "unit": "px",
+                            "size": 20,
+                            "sizes": []
+                        },
+                        "social_icon_width": {
+                            "unit": "px",
+                            "size": 36,
+                            "sizes": []
+                        },
+                        "social_common_color_opt": "yes",
+                        "scco_n_background_background": "classic",
+                        "scco_n_background_color": "#02010100",
+                        "scco_n_border_border": "solid",
+                        "scco_n_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "scco_n_br": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "scco_h_background_background": "classic",
+                        "scco_h_border_border": "solid",
+                        "scco_h_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "social_icon_size_tablet": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "social_icon_width_tablet": {
+                            "unit": "px",
+                            "size": 35,
+                            "sizes": []
+                        },
+                        "featured_image_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "tp-team-member-listout",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

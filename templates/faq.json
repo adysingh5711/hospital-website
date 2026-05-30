@@ -1,0 +1,458 @@
+{
+    "version": "0.4",
+    "title": "Faq",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "333ac93a",
+            "settings": {
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/Rectangle-331.jpg",
+                    "id": 1445,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "padding": {
+                    "unit": "px",
+                    "top": "103",
+                    "right": "15",
+                    "bottom": "120",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.7,
+                    "sizes": []
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=c81b1d9"
+                }
+            },
+            "elements": [
+                {
+                    "id": "6947edcc",
+                    "settings": {
+                        "image": {
+                            "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/Mask-group-1.png",
+                            "id": 707,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "_position": "absolute",
+                        "_offset_orientation_h": "end",
+                        "_offset_orientation_v": "end"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "image",
+                    "elType": "widget"
+                },
+                {
+                    "id": "94c6275",
+                    "settings": {
+                        "title": "Faq\u2019s",
+                        "header_size": "h1",
+                        "align": "center",
+                        "__globals__": {
+                            "title_color": "globals\/colors?id=ae0b14b",
+                            "typography_typography": "globals\/typography?id=5189cfb"
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "15",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_z_index": 2
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "12d65df7",
+                    "settings": {
+                        "view": "inline",
+                        "icon_list": [
+                            {
+                                "text": "Home",
+                                "selected_icon": {
+                                    "value": "",
+                                    "library": ""
+                                },
+                                "_id": "b81941e",
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                }
+                            },
+                            {
+                                "text": "Faq\u2019s",
+                                "selected_icon": {
+                                    "value": "",
+                                    "library": ""
+                                },
+                                "_id": "09e4c46"
+                            }
+                        ],
+                        "icon_align": "center",
+                        "divider": "yes",
+                        "divider_height": {
+                            "unit": "px",
+                            "size": 10,
+                            "sizes": []
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "3",
+                            "right": "11",
+                            "bottom": "3",
+                            "left": "11",
+                            "isLinked": false
+                        },
+                        "_flex_align_self": "center",
+                        "_z_index": 2,
+                        "_background_background": "classic",
+                        "__globals__": {
+                            "icon_typography_typography": "globals\/typography?id=secondary",
+                            "text_color": "globals\/colors?id=ae0b14b",
+                            "text_color_hover": "globals\/colors?id=secondary",
+                            "_background_color": "globals\/colors?id=accent",
+                            "divider_color": "globals\/colors?id=ae0b14b"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "icon-list",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "180802c9",
+            "settings": {
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "15",
+                    "bottom": "92",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "5",
+                    "right": "1",
+                    "bottom": "4",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_mobile_extra": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "1fb50677",
+                    "settings": {
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 770,
+                            "sizes": []
+                        },
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/templatekit.vithemes.com\/sifoxen\/wp-content\/uploads\/2025\/03\/faqs-HW9DYSB.jpg",
+                            "id": 1480,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "background_position": "center center",
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover",
+                        "background_overlay_background": "gradient",
+                        "background_overlay_color_b": "#F2295B00",
+                        "background_overlay_opacity": {
+                            "unit": "px",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "42",
+                            "right": "15",
+                            "bottom": "60",
+                            "left": "15",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "background_overlay_color": "globals\/colors?id=ae0b14b"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "62efe538",
+                            "settings": {
+                                "title": "Search Your Questions<br> Queries here",
+                                "align": "center",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=primary",
+                                    "typography_typography": "globals\/typography?id=e862795"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "58753127",
+                            "settings": {
+                                "height": {
+                                    "unit": "px",
+                                    "size": 55,
+                                    "sizes": []
+                                },
+                                "padding-horizontal": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "border-form": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border-radius-form": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "form_search_background": "globals\/colors?id=ae0b14b",
+                                    "form_search_color": "globals\/colors?id=text",
+                                    "form_search_placeholder_color": "globals\/colors?id=text",
+                                    "form_border_color": "globals\/colors?id=15b6b32"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "tf-search",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "423ea35e",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "30",
+                            "row": "0",
+                            "isLinked": false,
+                            "unit": "px",
+                            "size": 30
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "60",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "508df0be",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 50,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "63b7c06d",
+                                    "settings": {
+                                        "tabs": [
+                                            {
+                                                "tab_title": "Do you offer a warranty for your work?",
+                                                "tab_content": "<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the<\/p>",
+                                                "_id": "3f09b8a"
+                                            },
+                                            {
+                                                "tab_title": "Can you help with tile selection and design?",
+                                                "tab_content": "<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the<\/p>",
+                                                "_id": "f176a0b"
+                                            },
+                                            {
+                                                "tab_title": "What types of tiles are available from a tiles company?",
+                                                "tab_content": "<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the<\/p>",
+                                                "_id": "5fbfed4"
+                                            }
+                                        ],
+                                        "icon_space": {
+                                            "unit": "px",
+                                            "size": 5,
+                                            "sizes": []
+                                        },
+                                        "title_accordion_padding": {
+                                            "unit": "px",
+                                            "top": "24",
+                                            "right": "24",
+                                            "bottom": "24",
+                                            "left": "24",
+                                            "isLinked": true
+                                        },
+                                        "title_box_border": "yes",
+                                        "accordion_space": {
+                                            "unit": "px",
+                                            "size": 20,
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "title_box_border_color": "globals\/colors?id=15b6b32",
+                                            "title_color": "globals\/colors?id=primary",
+                                            "icon_color": "globals\/colors?id=primary",
+                                            "icon_active_color": "globals\/colors?id=accent",
+                                            "title_active_color": "globals\/colors?id=primary"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "tp-accordion",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "5ddfa34a",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 50,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "5644976c",
+                                    "settings": {
+                                        "tabs": [
+                                            {
+                                                "tab_title": "How do I choose the right tiles for my project?",
+                                                "tab_content": "<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the<\/p>",
+                                                "_id": "3f09b8a"
+                                            },
+                                            {
+                                                "tab_title": "Are there eco-friendly tile options available?",
+                                                "tab_content": "<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the<\/p>",
+                                                "_id": "f176a0b"
+                                            }
+                                        ],
+                                        "icon_space": {
+                                            "unit": "px",
+                                            "size": 5,
+                                            "sizes": []
+                                        },
+                                        "title_accordion_padding": {
+                                            "unit": "px",
+                                            "top": "24",
+                                            "right": "24",
+                                            "bottom": "24",
+                                            "left": "24",
+                                            "isLinked": true
+                                        },
+                                        "title_box_border": "yes",
+                                        "accordion_space": {
+                                            "unit": "px",
+                                            "size": 20,
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "title_box_border_color": "globals\/colors?id=15b6b32",
+                                            "title_color": "globals\/colors?id=primary",
+                                            "icon_color": "globals\/colors?id=primary",
+                                            "icon_active_color": "globals\/colors?id=accent",
+                                            "title_active_color": "globals\/colors?id=primary"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "tp-accordion",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

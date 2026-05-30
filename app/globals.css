@@ -4,19 +4,29 @@
   /* Brand colors */
   --color-brand-dark: #362048;
   --color-brand-teal: #55D9D7;
+  --color-brand-cream: #F5F2F4;
+  --color-brand-light: #F5F2F4;
   --color-brand-purple: #AE61BE;
   --color-brand-gray: #79767C;
   --color-brand-muted: #9F83B5;
-  --color-brand-light: #F5F2F4;
   --color-brand-border: #DDD8DB;
   --color-brand-black: #090010;
 
   /* Fonts */
   --font-serif: var(--font-garamond), Georgia, serif;
   --font-sans: var(--font-jakarta), system-ui, sans-serif;
+  --font-secondary: var(--font-dmsans), system-ui, sans-serif;
 
   /* Custom spacing */
   --spacing-section: 6rem;
+}
+
+:root {
+  --thm-primary: #55D9D7;
+  --thm-black: #362048;
+  --thm-base: #79767C;
+  --thm-bg: #F5F2F4;
+  --thm-border: #DDD8DB;
 }
 
 /* Base */

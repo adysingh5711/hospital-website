@@ -45,11 +45,11 @@ export default function StatCounter({ value, suffix = "", label }: Props) {
 
   return (
     <div ref={ref} className="text-center">
-      <p className="font-serif text-5xl font-bold text-brand-teal tabular-nums">
+      <p className="font-serif text-5xl sm:text-6xl font-bold text-white tabular-nums">
         {count.toLocaleString()}
-        {suffix}
+        <span className="text-brand-teal font-sans ml-0.5">{suffix}</span>
       </p>
-      <p className="mt-2 text-sm uppercase tracking-widest text-brand-muted font-sans">
+      <p className="mt-3 text-xs sm:text-sm uppercase tracking-widest text-gray-300 font-sans">
         {label}
       </p>
     </div>

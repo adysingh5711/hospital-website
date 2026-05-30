@@ -1,8 +1,11 @@
+"use client";
+
 import Link from "next/link";
-import SectionLabel from "@/components/ui/SectionLabel";
+import { useEffect, useState, useRef } from "react";
+import SectionTitle from "@/components/ui/SectionTitle";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
-const highlights = [
+const bulletItems = [
   "Personalised treatment plans tailored to your goals",
   "Evidence-based physiotherapy and manual therapy",
   "State-of-the-art facilities with expert therapists",
@@ -10,75 +13,114 @@ const highlights = [
 ];
 
 export default function AboutSection() {
+  const [odometerVal, setOdometerVal] = useState(0);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const started = useRef(false);
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !started.current) {
+          started.current = true;
+          let current = 0;
+          const target = 15;
+          const timer = setInterval(() => {
+            current += 1;
+            if (current >= target) {
+              setOdometerVal(target);
+              clearInterval(timer);
+            } else {
+              setOdometerVal(current);
+            }
+          }, 80);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
-        {/* Image column */}
-        <ScrollReveal direction="left">
-          <div className="relative">
-            <div className="rounded-3xl overflow-hidden aspect-[4/5]">
-              <img
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80"
-                alt="Physiotherapy clinic"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            {/* Years badge */}
-            <div className="absolute -bottom-6 -right-6 bg-brand-dark rounded-2xl px-6 py-5 text-center shadow-2xl">
-              <p className="font-serif text-4xl font-bold text-brand-teal">15+</p>
-              <p className="text-xs text-brand-muted uppercase tracking-widest mt-1">
-                Years of Experience
-              </p>
-            </div>
-            {/* Decorative dot grid */}
-            <div
-              className="absolute -top-6 -left-6 w-32 h-32 opacity-20"
-              style={{
-                backgroundImage: "radial-gradient(#55D9D7 1px, transparent 1px)",
-                backgroundSize: "12px 12px",
-              }}
-            />
-          </div>
-        </ScrollReveal>
+    <section className="py-24 bg-white overflow-hidden" ref={containerRef}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-16 items-center">
+        
+        {/* Left Column: about-one__image stack */}
+        <div className="lg:col-span-6 relative pb-12 lg:pb-0 pr-8 sm:pr-12">
+          <ScrollReveal direction="left">
+            <div className="about-one__image relative">
+              {/* Main large image */}
+              <div className="rounded-3xl overflow-hidden aspect-[4/5] shadow-2xl relative">
+                <img
+                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80"
+                  alt="Sifoxen clinic therapist"
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-        {/* Text column */}
-        <ScrollReveal direction="right">
-          <SectionLabel text="About Us" />
-          <h2 className="font-serif text-4xl lg:text-5xl font-bold text-brand-dark mb-6">
-            We Are Best Physical Therapy Clinic in Town
-          </h2>
-          <p className="text-brand-gray font-sans leading-relaxed mb-6">
-            At Sifoxen, we believe that movement is medicine. Our team of expert physiotherapists,
-            chiropractors, and massage therapists work together to deliver holistic, patient-centred
-            care that addresses the root cause of your pain — not just the symptoms.
-          </p>
-          <p className="text-brand-gray font-sans leading-relaxed mb-8">
-            From acute sports injuries to chronic conditions, our evidence-based approach combines
-            hands-on therapy, exercise rehabilitation, and education to get you back to the life you
-            love — faster.
-          </p>
+              {/* Smaller floated image, absolute positioned bottom right */}
+              <div className="about-one__image__floated absolute -bottom-10 -right-8 w-44 sm:w-56 h-56 sm:h-72 rounded-3xl overflow-hidden border-[8px] border-white shadow-2xl z-20">
+                <img
+                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=500&q=80"
+                  alt="Therapy space"
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-          <ul className="space-y-3 mb-8">
-            {highlights.map((item) => (
-              <li key={item} className="flex items-start gap-3 text-brand-dark font-sans text-sm">
-                <span className="w-5 h-5 rounded-full bg-brand-teal/15 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
-                    <path d="M1 4L3.5 6.5L9 1" stroke="#55D9D7" strokeWidth="1.5" strokeLinecap="round" />
-                  </svg>
+              {/* Experience odometer badge bottom left */}
+              <div className="about-one__experience absolute bottom-8 -left-8 bg-brand-dark rounded-2xl p-5 sm:p-6 text-center shadow-2xl z-20 min-w-[140px] text-white">
+                <span className="about-one__experience__number block font-serif text-4xl sm:text-5xl font-extrabold text-brand-teal tabular-nums">
+                  {odometerVal}
                 </span>
-                {item}
-              </li>
-            ))}
-          </ul>
+                <span className="about-one__experience__text block text-[9px] sm:text-[10px] text-gray-300 font-bold uppercase tracking-widest mt-1.5 leading-none">
+                  Years Of <br /> Experience
+                </span>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
 
-          <Link
-            href="/about"
-            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-brand-dark text-white font-medium font-sans text-sm hover:bg-brand-purple transition-colors duration-200"
-          >
-            Know More About Us
-            <span>→</span>
-          </Link>
-        </ScrollReveal>
+        {/* Right Column: Text & Bullets */}
+        <div className="lg:col-span-6">
+          <ScrollReveal direction="right">
+            {/* Tagline Leaf Section Title */}
+            <SectionTitle
+              tagline="ABOUT SIFOXEN"
+              title="We Are the Best Physical Therapy Clinic in Town"
+              align="left"
+              className="mb-6"
+            />
+            
+            <p className="text-brand-gray font-sans text-sm sm:text-base leading-relaxed mb-8">
+              At Sifoxen, we believe that movement is medicine. Our clinical team of expert physiotherapists, chiropractors, and massage practitioners collaborate to deliver holistic, patient-centered programs that address root physical causes.
+            </p>
+
+            {/* Checkmark List (list-unstyled about-one__list) */}
+            <ul className="about-one__list space-y-4 mb-10">
+              {bulletItems.map((item) => (
+                <li key={item} className="flex items-start gap-3.5 text-brand-dark font-sans text-sm font-semibold">
+                  <span className="w-5 h-5 rounded-full bg-brand-teal/15 flex items-center justify-center flex-shrink-0 mt-0.5 text-brand-teal font-sans font-bold text-xs">
+                    ✓
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+
+            <Link
+              href="/about"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-brand-teal text-white hover:bg-brand-dark hover:scale-[1.02] font-bold font-sans text-xs sm:text-sm tracking-wide uppercase transition-all duration-300 shadow-md"
+            >
+              Know More About Us
+              <span className="text-xs">→</span>
+            </Link>
+          </ScrollReveal>
+        </div>
+
       </div>
     </section>
   );
